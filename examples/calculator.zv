@@ -1,0 +1,35 @@
+// DreamLang 示例程序
+// 这个文件用于测试词法分析器
+
+package example
+
+import std.io
+
+class Calculator {
+    var result: number = 0
+    
+    fun add(a: number, b: number): number {
+        return a + b
+    }
+    
+    fun multiply(a: number, b: number): number {
+        return a * b
+    }
+}
+
+fun main() {
+    var calc = Calculator()
+    var x: number = 10
+    var y: number = 20
+    
+    var sum = calc.add(x, y)
+    var product = calc.multiply(x, y)
+    
+    if (sum > 25) {
+        print("Sum is greater than 25: " + sum)
+    } else {
+        print("Sum is less than or equal to 25: " + sum)
+    }
+    
+    var message: string = "Hello, DreamLang!"
+}

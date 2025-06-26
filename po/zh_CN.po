@@ -1,0 +1,164 @@
+# 中文翻译 DreamLang
+# Copyright (C) 2025 DreamLang 项目
+# This file is distributed under the same license as the DreamLang package.
+# 翻译者 <translator@example.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DreamLang 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-26 12:45+0200\n"
+"PO-Revision-Date: 2025-06-26 12:45+0200\n"
+"Last-Translator: 自动生成\n"
+"Language-Team: 中文（简体）\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lexer/lexical_exception.cpp:63
+#, c-format
+msgid "Lexical error at line %d, column %d"
+msgstr "第 %d 行第 %d 列词法错误"
+
+#: src/lexer/lexical_exception.cpp:68
+#, c-format
+msgid "Lexical error at line %d"
+msgstr "第 %d 行词法错误"
+
+#: src/lexer/lexical_exception.cpp:75
+msgid "unexpected character"
+msgstr "意外字符"
+
+#: src/lexer/lexical_exception.cpp:80
+msgid "token type"
+msgstr "词法单元类型"
+
+#: src/main.cpp:16
+msgid "Usage"
+msgstr "用法"
+
+#: src/main.cpp:17
+msgid "options"
+msgstr "选项"
+
+#: src/main.cpp:18
+msgid "source_file"
+msgstr "源文件"
+
+#: src/main.cpp:20
+msgid "Options"
+msgstr "选项"
+
+#: src/main.cpp:21
+msgid "Show this help message"
+msgstr "显示此帮助信息"
+
+#: src/main.cpp:22
+msgid "Show version information"
+msgstr "显示版本信息"
+
+#: src/main.cpp:23
+msgid "Set locale (e.g., zh_CN, en_US)"
+msgstr "设置语言环境（例如：zh_CN、en_US）"
+
+#: src/main.cpp:24
+msgid "Show tokenization result"
+msgstr "显示词法分析结果"
+
+#: src/main.cpp:25
+msgid "Set default config or specify config file"
+msgstr "设置默认配置或指定配置文件"
+
+#: src/main.cpp:27
+msgid "Note"
+msgstr "注意"
+
+#: src/main.cpp:28
+msgid "If source file has no extension, .zv will be automatically appended."
+msgstr "如果源文件没有扩展名，将自动添加 .zv 扩展名。"
+
+#: src/main.cpp:35
+msgid "Compiler"
+msgstr "编译器"
+
+#: src/main.cpp:36
+msgid "Copyright"
+msgstr "版权"
+
+#: src/main.cpp:37
+msgid "Project"
+msgstr "项目"
+
+#: src/main.cpp:66
+msgid "Cannot open file"
+msgstr "无法打开文件"
+
+#: src/main.cpp:89
+msgid "Tokenization result"
+msgstr "词法分析结果"
+
+#: src/main.cpp:99
+msgid "Total tokens"
+msgstr "词法单元总数"
+
+#: src/main.cpp:101
+msgid "Lexical analysis completed successfully"
+msgstr "词法分析成功完成"
+
+#: src/main.cpp:102
+msgid "Found"
+msgstr "发现"
+
+#: src/main.cpp:103
+msgid "tokens"
+msgstr "个词法单元"
+
+#: src/main.cpp:107
+msgid "Lexical Error"
+msgstr "词法错误"
+
+#: src/main.cpp:188 src/main.cpp:196 src/main.cpp:201 src/main.cpp:209
+#: src/main.cpp:226 src/main.cpp:268 src/main.cpp:279
+msgid "Error"
+msgstr "错误"
+
+#: src/main.cpp:189
+msgid "Option --config requires an argument"
+msgstr "选项 --config 需要一个参数"
+
+#: src/main.cpp:197
+msgid "Option --locale requires an argument"
+msgstr "选项 --locale 需要一个参数"
+
+#: src/main.cpp:202
+msgid "Unknown option"
+msgstr "未知选项"
+
+#: src/main.cpp:210
+msgid "Multiple source files specified"
+msgstr "指定了多个源文件"
+
+#: src/main.cpp:222
+msgid "Default config set successfully"
+msgstr "默认配置设置成功"
+
+#: src/main.cpp:227
+msgid "Failed to set default config"
+msgstr "设置默认配置失败"
+
+#: src/main.cpp:235 src/main.cpp:251
+msgid "Warning"
+msgstr "警告"
+
+#: src/main.cpp:236
+msgid "Failed to load config file"
+msgstr "加载配置文件失败"
+
+#: src/main.cpp:252
+msgid "Failed to set locale"
+msgstr "设置语言环境失败"
+
+#: src/main.cpp:269
+msgid "No source file specified"
+msgstr "未指定源文件"

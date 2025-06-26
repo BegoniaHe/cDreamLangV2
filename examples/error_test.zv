@@ -1,0 +1,8 @@
+// 这个文件包含一些词法错误，用于测试错误报告
+
+var x = "未闭合的字符串
+var y = 'a
+var z = @invalid_character
+var w = 123.456.789  // 无效的数字格式
+var comment = /* 未闭合的注释
+var escape = "invalid \q escape"

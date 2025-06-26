@@ -1,0 +1,17 @@
+{
+  "language": {
+    "default_locale": "zh_CN",
+    "fallback_locale": "en_US",
+    "auto_detect": true
+  },
+  "compiler": {
+    "optimization_level": 3,
+    "debug_info": true,
+    "warnings_as_errors": true
+  },
+  "output": {
+    "verbose": true,
+    "show_progress": true,
+    "colored_output": true
+  }
+}

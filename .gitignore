@@ -2,5 +2,49 @@
 
 # Ignore idea IDE files
 .idea
-# Ignore DS_Store files
-.DS_Store
+# Ignore all DS_Store files in any directory
+**/.DS_Store
+# Ignore build directories
+build/
+# Ignore javadl (original Java implementation)
+javadl/
+
+# C++ specific ignores
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dSYM/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Log files
+*.log
+
+# Binary files
+bin/
+lib/
+
+# Generated locale files
+*.mo
+share/locale/
+
+# Cmake specific files
+cmake-build-debug
+
+# config
+.config

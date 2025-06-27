@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DreamLang 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-26 12:45+0200\n"
-"PO-Revision-Date: 2025-06-26 12:45+0200\n"
+"POT-Creation-Date: 2025-06-28 12:45+0200\n"
+"PO-Revision-Date: 2025-06-28 12:45+0200\n"
 "Last-Translator: 自动生成\n"
 "Language-Team: 中文（简体）\n"
 "Language: zh_CN\n"
@@ -76,7 +76,7 @@ msgstr "注意"
 
 #: src/main.cpp:28
 msgid "If source file has no extension, .zv will be automatically appended."
-msgstr "如果源文件没有扩展名，将自动添加 .zv 扩展名。"
+msgstr "如果源文件没有扩展名，将自动添加 .zv 后缀。"
 
 #: src/main.cpp:35
 msgid "Compiler"
@@ -117,6 +117,18 @@ msgstr "个词法单元"
 #: src/main.cpp:107
 msgid "Lexical Error"
 msgstr "词法错误"
+
+#: src/main.cpp:123
+msgid "JSON tokens file generated"
+msgstr "已生成 JSON 词法单元文件"
+
+#: src/main.cpp:133
+msgid "TOML tokens file generated"
+msgstr "已生成 TOML 词法单元文件"
+
+#: src/main.cpp:138
+msgid "Failed to generate token files"
+msgstr "生成词法单元文件失败"
 
 #: src/main.cpp:188 src/main.cpp:196 src/main.cpp:201 src/main.cpp:209
 #: src/main.cpp:226 src/main.cpp:268 src/main.cpp:279

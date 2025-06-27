@@ -1,0 +1,872 @@
+[
+    {
+        "line": 2,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 3,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 4,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 4,
+        "type": "KEYWORD",
+        "value": "package"
+    },
+    {
+        "line": 4,
+        "type": "IDENT",
+        "value": "example"
+    },
+    {
+        "line": 5,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 6,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 6,
+        "type": "KEYWORD",
+        "value": "import"
+    },
+    {
+        "line": 6,
+        "type": "IDENT",
+        "value": "std"
+    },
+    {
+        "line": 6,
+        "type": "DOT",
+        "value": "."
+    },
+    {
+        "line": 6,
+        "type": "IDENT",
+        "value": "io"
+    },
+    {
+        "line": 7,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 8,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 8,
+        "type": "KEYWORD",
+        "value": "class"
+    },
+    {
+        "line": 8,
+        "type": "IDENT",
+        "value": "Calculator"
+    },
+    {
+        "line": 8,
+        "type": "LEFT_BRACE",
+        "value": "{"
+    },
+    {
+        "line": 9,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 9,
+        "type": "KEYWORD",
+        "value": "var"
+    },
+    {
+        "line": 9,
+        "type": "IDENT",
+        "value": "result"
+    },
+    {
+        "line": 9,
+        "type": "COLON",
+        "value": ":"
+    },
+    {
+        "line": 9,
+        "type": "KEYWORD",
+        "value": "number"
+    },
+    {
+        "line": 9,
+        "type": "ASSIGN",
+        "value": "="
+    },
+    {
+        "line": 9,
+        "type": "NUMBER",
+        "value": "0"
+    },
+    {
+        "line": 10,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 11,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 11,
+        "type": "KEYWORD",
+        "value": "fun"
+    },
+    {
+        "line": 11,
+        "type": "IDENT",
+        "value": "add"
+    },
+    {
+        "line": 11,
+        "type": "LEFT_PAREN",
+        "value": "("
+    },
+    {
+        "line": 11,
+        "type": "IDENT",
+        "value": "a"
+    },
+    {
+        "line": 11,
+        "type": "COLON",
+        "value": ":"
+    },
+    {
+        "line": 11,
+        "type": "KEYWORD",
+        "value": "number"
+    },
+    {
+        "line": 11,
+        "type": "COMMA",
+        "value": ","
+    },
+    {
+        "line": 11,
+        "type": "IDENT",
+        "value": "b"
+    },
+    {
+        "line": 11,
+        "type": "COLON",
+        "value": ":"
+    },
+    {
+        "line": 11,
+        "type": "KEYWORD",
+        "value": "number"
+    },
+    {
+        "line": 11,
+        "type": "RIGHT_PAREN",
+        "value": ")"
+    },
+    {
+        "line": 11,
+        "type": "COLON",
+        "value": ":"
+    },
+    {
+        "line": 11,
+        "type": "KEYWORD",
+        "value": "number"
+    },
+    {
+        "line": 11,
+        "type": "LEFT_BRACE",
+        "value": "{"
+    },
+    {
+        "line": 12,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 12,
+        "type": "KEYWORD",
+        "value": "return"
+    },
+    {
+        "line": 12,
+        "type": "IDENT",
+        "value": "a"
+    },
+    {
+        "line": 12,
+        "type": "PLUS",
+        "value": "+"
+    },
+    {
+        "line": 12,
+        "type": "IDENT",
+        "value": "b"
+    },
+    {
+        "line": 13,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 13,
+        "type": "RIGHT_BRACE",
+        "value": "}"
+    },
+    {
+        "line": 14,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 15,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 15,
+        "type": "KEYWORD",
+        "value": "fun"
+    },
+    {
+        "line": 15,
+        "type": "IDENT",
+        "value": "multiply"
+    },
+    {
+        "line": 15,
+        "type": "LEFT_PAREN",
+        "value": "("
+    },
+    {
+        "line": 15,
+        "type": "IDENT",
+        "value": "a"
+    },
+    {
+        "line": 15,
+        "type": "COLON",
+        "value": ":"
+    },
+    {
+        "line": 15,
+        "type": "KEYWORD",
+        "value": "number"
+    },
+    {
+        "line": 15,
+        "type": "COMMA",
+        "value": ","
+    },
+    {
+        "line": 15,
+        "type": "IDENT",
+        "value": "b"
+    },
+    {
+        "line": 15,
+        "type": "COLON",
+        "value": ":"
+    },
+    {
+        "line": 15,
+        "type": "KEYWORD",
+        "value": "number"
+    },
+    {
+        "line": 15,
+        "type": "RIGHT_PAREN",
+        "value": ")"
+    },
+    {
+        "line": 15,
+        "type": "COLON",
+        "value": ":"
+    },
+    {
+        "line": 15,
+        "type": "KEYWORD",
+        "value": "number"
+    },
+    {
+        "line": 15,
+        "type": "LEFT_BRACE",
+        "value": "{"
+    },
+    {
+        "line": 16,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 16,
+        "type": "KEYWORD",
+        "value": "return"
+    },
+    {
+        "line": 16,
+        "type": "IDENT",
+        "value": "a"
+    },
+    {
+        "line": 16,
+        "type": "MULT",
+        "value": "*"
+    },
+    {
+        "line": 16,
+        "type": "IDENT",
+        "value": "b"
+    },
+    {
+        "line": 17,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 17,
+        "type": "RIGHT_BRACE",
+        "value": "}"
+    },
+    {
+        "line": 18,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 18,
+        "type": "RIGHT_BRACE",
+        "value": "}"
+    },
+    {
+        "line": 19,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 20,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 20,
+        "type": "KEYWORD",
+        "value": "fun"
+    },
+    {
+        "line": 20,
+        "type": "IDENT",
+        "value": "main"
+    },
+    {
+        "line": 20,
+        "type": "LEFT_PAREN",
+        "value": "("
+    },
+    {
+        "line": 20,
+        "type": "RIGHT_PAREN",
+        "value": ")"
+    },
+    {
+        "line": 20,
+        "type": "LEFT_BRACE",
+        "value": "{"
+    },
+    {
+        "line": 21,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 21,
+        "type": "KEYWORD",
+        "value": "var"
+    },
+    {
+        "line": 21,
+        "type": "IDENT",
+        "value": "calc"
+    },
+    {
+        "line": 21,
+        "type": "ASSIGN",
+        "value": "="
+    },
+    {
+        "line": 21,
+        "type": "IDENT",
+        "value": "Calculator"
+    },
+    {
+        "line": 21,
+        "type": "LEFT_PAREN",
+        "value": "("
+    },
+    {
+        "line": 21,
+        "type": "RIGHT_PAREN",
+        "value": ")"
+    },
+    {
+        "line": 22,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 22,
+        "type": "KEYWORD",
+        "value": "var"
+    },
+    {
+        "line": 22,
+        "type": "IDENT",
+        "value": "x"
+    },
+    {
+        "line": 22,
+        "type": "COLON",
+        "value": ":"
+    },
+    {
+        "line": 22,
+        "type": "KEYWORD",
+        "value": "number"
+    },
+    {
+        "line": 22,
+        "type": "ASSIGN",
+        "value": "="
+    },
+    {
+        "line": 22,
+        "type": "NUMBER",
+        "value": "10"
+    },
+    {
+        "line": 23,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 23,
+        "type": "KEYWORD",
+        "value": "var"
+    },
+    {
+        "line": 23,
+        "type": "IDENT",
+        "value": "y"
+    },
+    {
+        "line": 23,
+        "type": "COLON",
+        "value": ":"
+    },
+    {
+        "line": 23,
+        "type": "KEYWORD",
+        "value": "number"
+    },
+    {
+        "line": 23,
+        "type": "ASSIGN",
+        "value": "="
+    },
+    {
+        "line": 23,
+        "type": "NUMBER",
+        "value": "20"
+    },
+    {
+        "line": 24,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 25,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 25,
+        "type": "KEYWORD",
+        "value": "var"
+    },
+    {
+        "line": 25,
+        "type": "IDENT",
+        "value": "hex1"
+    },
+    {
+        "line": 25,
+        "type": "COLON",
+        "value": ":"
+    },
+    {
+        "line": 25,
+        "type": "KEYWORD",
+        "value": "number"
+    },
+    {
+        "line": 25,
+        "type": "ASSIGN",
+        "value": "="
+    },
+    {
+        "line": 25,
+        "type": "NUMBER",
+        "value": "0x13"
+    },
+    {
+        "line": 26,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 27,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 28,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 28,
+        "type": "KEYWORD",
+        "value": "var"
+    },
+    {
+        "line": 28,
+        "type": "IDENT",
+        "value": "sum"
+    },
+    {
+        "line": 28,
+        "type": "ASSIGN",
+        "value": "="
+    },
+    {
+        "line": 28,
+        "type": "IDENT",
+        "value": "calc"
+    },
+    {
+        "line": 28,
+        "type": "DOT",
+        "value": "."
+    },
+    {
+        "line": 28,
+        "type": "IDENT",
+        "value": "add"
+    },
+    {
+        "line": 28,
+        "type": "LEFT_PAREN",
+        "value": "("
+    },
+    {
+        "line": 28,
+        "type": "IDENT",
+        "value": "x"
+    },
+    {
+        "line": 28,
+        "type": "COMMA",
+        "value": ","
+    },
+    {
+        "line": 28,
+        "type": "IDENT",
+        "value": "y"
+    },
+    {
+        "line": 28,
+        "type": "RIGHT_PAREN",
+        "value": ")"
+    },
+    {
+        "line": 29,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 29,
+        "type": "KEYWORD",
+        "value": "var"
+    },
+    {
+        "line": 29,
+        "type": "IDENT",
+        "value": "product"
+    },
+    {
+        "line": 29,
+        "type": "ASSIGN",
+        "value": "="
+    },
+    {
+        "line": 29,
+        "type": "IDENT",
+        "value": "calc"
+    },
+    {
+        "line": 29,
+        "type": "DOT",
+        "value": "."
+    },
+    {
+        "line": 29,
+        "type": "IDENT",
+        "value": "multiply"
+    },
+    {
+        "line": 29,
+        "type": "LEFT_PAREN",
+        "value": "("
+    },
+    {
+        "line": 29,
+        "type": "IDENT",
+        "value": "x"
+    },
+    {
+        "line": 29,
+        "type": "COMMA",
+        "value": ","
+    },
+    {
+        "line": 29,
+        "type": "IDENT",
+        "value": "y"
+    },
+    {
+        "line": 29,
+        "type": "RIGHT_PAREN",
+        "value": ")"
+    },
+    {
+        "line": 30,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 31,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 31,
+        "type": "KEYWORD",
+        "value": "if"
+    },
+    {
+        "line": 31,
+        "type": "LEFT_PAREN",
+        "value": "("
+    },
+    {
+        "line": 31,
+        "type": "IDENT",
+        "value": "sum"
+    },
+    {
+        "line": 31,
+        "type": "GREATER",
+        "value": ">"
+    },
+    {
+        "line": 31,
+        "type": "NUMBER",
+        "value": "25"
+    },
+    {
+        "line": 31,
+        "type": "RIGHT_PAREN",
+        "value": ")"
+    },
+    {
+        "line": 31,
+        "type": "LEFT_BRACE",
+        "value": "{"
+    },
+    {
+        "line": 32,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 32,
+        "type": "IDENT",
+        "value": "print"
+    },
+    {
+        "line": 32,
+        "type": "LEFT_PAREN",
+        "value": "("
+    },
+    {
+        "line": 32,
+        "type": "STRING",
+        "value": "Sum is greater than 25: "
+    },
+    {
+        "line": 32,
+        "type": "PLUS",
+        "value": "+"
+    },
+    {
+        "line": 32,
+        "type": "IDENT",
+        "value": "sum"
+    },
+    {
+        "line": 32,
+        "type": "RIGHT_PAREN",
+        "value": ")"
+    },
+    {
+        "line": 33,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 33,
+        "type": "RIGHT_BRACE",
+        "value": "}"
+    },
+    {
+        "line": 33,
+        "type": "KEYWORD",
+        "value": "else"
+    },
+    {
+        "line": 33,
+        "type": "LEFT_BRACE",
+        "value": "{"
+    },
+    {
+        "line": 34,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 34,
+        "type": "IDENT",
+        "value": "print"
+    },
+    {
+        "line": 34,
+        "type": "LEFT_PAREN",
+        "value": "("
+    },
+    {
+        "line": 34,
+        "type": "STRING",
+        "value": "Sum is less than or equal to 25: "
+    },
+    {
+        "line": 34,
+        "type": "PLUS",
+        "value": "+"
+    },
+    {
+        "line": 34,
+        "type": "IDENT",
+        "value": "sum"
+    },
+    {
+        "line": 34,
+        "type": "RIGHT_PAREN",
+        "value": ")"
+    },
+    {
+        "line": 35,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 35,
+        "type": "RIGHT_BRACE",
+        "value": "}"
+    },
+    {
+        "line": 36,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 37,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 37,
+        "type": "KEYWORD",
+        "value": "var"
+    },
+    {
+        "line": 37,
+        "type": "IDENT",
+        "value": "message"
+    },
+    {
+        "line": 37,
+        "type": "COLON",
+        "value": ":"
+    },
+    {
+        "line": 37,
+        "type": "KEYWORD",
+        "value": "string"
+    },
+    {
+        "line": 37,
+        "type": "ASSIGN",
+        "value": "="
+    },
+    {
+        "line": 37,
+        "type": "STRING",
+        "value": "Hello, DreamLang!"
+    },
+    {
+        "line": 38,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 38,
+        "type": "RIGHT_BRACE",
+        "value": "}"
+    },
+    {
+        "line": 39,
+        "type": "LINEBREAK",
+        "value": "\n"
+    },
+    {
+        "line": 39,
+        "type": "EOF",
+        "value": ""
+    }
+]

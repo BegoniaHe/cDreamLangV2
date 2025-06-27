@@ -48,3 +48,6 @@ cmake-build-debug
 
 # config
 .config
+
+# dependency files
+_deps/

@@ -6,12 +6,21 @@ namespace dreamlang::lexer {
  * Token类型枚举
  */
 enum class TokenType {
+    // 非法Token
+    ILLEGAL,
+    // 标识符
     IDENT,
+    // 空值
     NULL_LITERAL,
+    // 数字
     NUMBER,
+    // 布尔值：true
     BOOL_TRUE,
+    // 布尔值：false
     BOOL_FALSE,
+    // 字符串
     STRING,
+    // 字符
     CHAR,
     // 单行注释
     SINGLE_COMMENT,

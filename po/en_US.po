@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DreamLang 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-26 12:45+0200\n"
-"PO-Revision-Date: 2025-06-26 12:45+0200\n"
+"POT-Creation-Date: 2025-06-28 12:45+0200\n"
+"PO-Revision-Date: 2025-06-28 12:45+0200\n"
 "Last-Translator: Auto-generated\n"
 "Language-Team: English\n"
 "Language: en_US\n"
@@ -117,6 +117,18 @@ msgstr "tokens"
 #: src/main.cpp:107
 msgid "Lexical Error"
 msgstr "Lexical Error"
+
+#: src/main.cpp:123
+msgid "JSON tokens file generated"
+msgstr "JSON tokens file generated"
+
+#: src/main.cpp:133
+msgid "TOML tokens file generated"
+msgstr "TOML tokens file generated"
+
+#: src/main.cpp:138
+msgid "Failed to generate token files"
+msgstr "Failed to generate token files"
 
 #: src/main.cpp:188 src/main.cpp:196 src/main.cpp:201 src/main.cpp:209
 #: src/main.cpp:226 src/main.cpp:268 src/main.cpp:279

@@ -14,10 +14,27 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(GETTEXT REQUIRED)
 
+include(FetchContent)
+FetchContent_Declare(
+    nlohmann_json
+    GIT_REPOSITORY https://github.com/nlohmann/json.git
+    GIT_TAG v3.11.3
+)
+FetchContent_MakeAvailable(nlohmann_json)
+
+FetchContent_Declare(
+    tomlplusplus
+    GIT_REPOSITORY https://github.com/marzer/tomlplusplus.git
+    GIT_TAG v3.4.0
+)
+FetchContent_MakeAvailable(tomlplusplus)
+
 # Include directories
 include_directories(
     ${CMAKE_SOURCE_DIR}/include
     ${CMAKE_SOURCE_DIR}/src
+    ${nlohmann_json_SOURCE_DIR}/include
+    ${tomlplusplus_SOURCE_DIR}/include
 )
 
 # Source files
@@ -26,6 +43,7 @@ set(LEXER_SOURCES
     src/lexer/token.cpp
     src/lexer/token_type.cpp
     src/lexer/lexical_exception.cpp
+        src/lexer/token_serialize.cpp
 )
 
 set(I18N_SOURCES

@@ -1,0 +1,907 @@
+[[tokens]]
+line = 2
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 3
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 4
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 4
+type = 'KEYWORD'
+value = 'package'
+
+[[tokens]]
+line = 4
+type = 'IDENT'
+value = 'example'
+
+[[tokens]]
+line = 5
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 6
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 6
+type = 'KEYWORD'
+value = 'import'
+
+[[tokens]]
+line = 6
+type = 'IDENT'
+value = 'std'
+
+[[tokens]]
+line = 6
+type = 'DOT'
+value = '.'
+
+[[tokens]]
+line = 6
+type = 'IDENT'
+value = 'io'
+
+[[tokens]]
+line = 7
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 8
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 8
+type = 'KEYWORD'
+value = 'class'
+
+[[tokens]]
+line = 8
+type = 'IDENT'
+value = 'Calculator'
+
+[[tokens]]
+line = 8
+type = 'LEFT_BRACE'
+value = '{'
+
+[[tokens]]
+line = 9
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 9
+type = 'KEYWORD'
+value = 'var'
+
+[[tokens]]
+line = 9
+type = 'IDENT'
+value = 'result'
+
+[[tokens]]
+line = 9
+type = 'COLON'
+value = ':'
+
+[[tokens]]
+line = 9
+type = 'KEYWORD'
+value = 'number'
+
+[[tokens]]
+line = 9
+type = 'ASSIGN'
+value = '='
+
+[[tokens]]
+line = 9
+type = 'NUMBER'
+value = '0'
+
+[[tokens]]
+line = 10
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 11
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 11
+type = 'KEYWORD'
+value = 'fun'
+
+[[tokens]]
+line = 11
+type = 'IDENT'
+value = 'add'
+
+[[tokens]]
+line = 11
+type = 'LEFT_PAREN'
+value = '('
+
+[[tokens]]
+line = 11
+type = 'IDENT'
+value = 'a'
+
+[[tokens]]
+line = 11
+type = 'COLON'
+value = ':'
+
+[[tokens]]
+line = 11
+type = 'KEYWORD'
+value = 'number'
+
+[[tokens]]
+line = 11
+type = 'COMMA'
+value = ','
+
+[[tokens]]
+line = 11
+type = 'IDENT'
+value = 'b'
+
+[[tokens]]
+line = 11
+type = 'COLON'
+value = ':'
+
+[[tokens]]
+line = 11
+type = 'KEYWORD'
+value = 'number'
+
+[[tokens]]
+line = 11
+type = 'RIGHT_PAREN'
+value = ')'
+
+[[tokens]]
+line = 11
+type = 'COLON'
+value = ':'
+
+[[tokens]]
+line = 11
+type = 'KEYWORD'
+value = 'number'
+
+[[tokens]]
+line = 11
+type = 'LEFT_BRACE'
+value = '{'
+
+[[tokens]]
+line = 12
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 12
+type = 'KEYWORD'
+value = 'return'
+
+[[tokens]]
+line = 12
+type = 'IDENT'
+value = 'a'
+
+[[tokens]]
+line = 12
+type = 'PLUS'
+value = '+'
+
+[[tokens]]
+line = 12
+type = 'IDENT'
+value = 'b'
+
+[[tokens]]
+line = 13
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 13
+type = 'RIGHT_BRACE'
+value = '}'
+
+[[tokens]]
+line = 14
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 15
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 15
+type = 'KEYWORD'
+value = 'fun'
+
+[[tokens]]
+line = 15
+type = 'IDENT'
+value = 'multiply'
+
+[[tokens]]
+line = 15
+type = 'LEFT_PAREN'
+value = '('
+
+[[tokens]]
+line = 15
+type = 'IDENT'
+value = 'a'
+
+[[tokens]]
+line = 15
+type = 'COLON'
+value = ':'
+
+[[tokens]]
+line = 15
+type = 'KEYWORD'
+value = 'number'
+
+[[tokens]]
+line = 15
+type = 'COMMA'
+value = ','
+
+[[tokens]]
+line = 15
+type = 'IDENT'
+value = 'b'
+
+[[tokens]]
+line = 15
+type = 'COLON'
+value = ':'
+
+[[tokens]]
+line = 15
+type = 'KEYWORD'
+value = 'number'
+
+[[tokens]]
+line = 15
+type = 'RIGHT_PAREN'
+value = ')'
+
+[[tokens]]
+line = 15
+type = 'COLON'
+value = ':'
+
+[[tokens]]
+line = 15
+type = 'KEYWORD'
+value = 'number'
+
+[[tokens]]
+line = 15
+type = 'LEFT_BRACE'
+value = '{'
+
+[[tokens]]
+line = 16
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 16
+type = 'KEYWORD'
+value = 'return'
+
+[[tokens]]
+line = 16
+type = 'IDENT'
+value = 'a'
+
+[[tokens]]
+line = 16
+type = 'MULT'
+value = '*'
+
+[[tokens]]
+line = 16
+type = 'IDENT'
+value = 'b'
+
+[[tokens]]
+line = 17
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 17
+type = 'RIGHT_BRACE'
+value = '}'
+
+[[tokens]]
+line = 18
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 18
+type = 'RIGHT_BRACE'
+value = '}'
+
+[[tokens]]
+line = 19
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 20
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 20
+type = 'KEYWORD'
+value = 'fun'
+
+[[tokens]]
+line = 20
+type = 'IDENT'
+value = 'main'
+
+[[tokens]]
+line = 20
+type = 'LEFT_PAREN'
+value = '('
+
+[[tokens]]
+line = 20
+type = 'RIGHT_PAREN'
+value = ')'
+
+[[tokens]]
+line = 20
+type = 'LEFT_BRACE'
+value = '{'
+
+[[tokens]]
+line = 21
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 21
+type = 'KEYWORD'
+value = 'var'
+
+[[tokens]]
+line = 21
+type = 'IDENT'
+value = 'calc'
+
+[[tokens]]
+line = 21
+type = 'ASSIGN'
+value = '='
+
+[[tokens]]
+line = 21
+type = 'IDENT'
+value = 'Calculator'
+
+[[tokens]]
+line = 21
+type = 'LEFT_PAREN'
+value = '('
+
+[[tokens]]
+line = 21
+type = 'RIGHT_PAREN'
+value = ')'
+
+[[tokens]]
+line = 22
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 22
+type = 'KEYWORD'
+value = 'var'
+
+[[tokens]]
+line = 22
+type = 'IDENT'
+value = 'x'
+
+[[tokens]]
+line = 22
+type = 'COLON'
+value = ':'
+
+[[tokens]]
+line = 22
+type = 'KEYWORD'
+value = 'number'
+
+[[tokens]]
+line = 22
+type = 'ASSIGN'
+value = '='
+
+[[tokens]]
+line = 22
+type = 'NUMBER'
+value = '10'
+
+[[tokens]]
+line = 23
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 23
+type = 'KEYWORD'
+value = 'var'
+
+[[tokens]]
+line = 23
+type = 'IDENT'
+value = 'y'
+
+[[tokens]]
+line = 23
+type = 'COLON'
+value = ':'
+
+[[tokens]]
+line = 23
+type = 'KEYWORD'
+value = 'number'
+
+[[tokens]]
+line = 23
+type = 'ASSIGN'
+value = '='
+
+[[tokens]]
+line = 23
+type = 'NUMBER'
+value = '20'
+
+[[tokens]]
+line = 24
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 25
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 25
+type = 'KEYWORD'
+value = 'var'
+
+[[tokens]]
+line = 25
+type = 'IDENT'
+value = 'hex1'
+
+[[tokens]]
+line = 25
+type = 'COLON'
+value = ':'
+
+[[tokens]]
+line = 25
+type = 'KEYWORD'
+value = 'number'
+
+[[tokens]]
+line = 25
+type = 'ASSIGN'
+value = '='
+
+[[tokens]]
+line = 25
+type = 'NUMBER'
+value = '0x13'
+
+[[tokens]]
+line = 26
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 27
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 28
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 28
+type = 'KEYWORD'
+value = 'var'
+
+[[tokens]]
+line = 28
+type = 'IDENT'
+value = 'sum'
+
+[[tokens]]
+line = 28
+type = 'ASSIGN'
+value = '='
+
+[[tokens]]
+line = 28
+type = 'IDENT'
+value = 'calc'
+
+[[tokens]]
+line = 28
+type = 'DOT'
+value = '.'
+
+[[tokens]]
+line = 28
+type = 'IDENT'
+value = 'add'
+
+[[tokens]]
+line = 28
+type = 'LEFT_PAREN'
+value = '('
+
+[[tokens]]
+line = 28
+type = 'IDENT'
+value = 'x'
+
+[[tokens]]
+line = 28
+type = 'COMMA'
+value = ','
+
+[[tokens]]
+line = 28
+type = 'IDENT'
+value = 'y'
+
+[[tokens]]
+line = 28
+type = 'RIGHT_PAREN'
+value = ')'
+
+[[tokens]]
+line = 29
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 29
+type = 'KEYWORD'
+value = 'var'
+
+[[tokens]]
+line = 29
+type = 'IDENT'
+value = 'product'
+
+[[tokens]]
+line = 29
+type = 'ASSIGN'
+value = '='
+
+[[tokens]]
+line = 29
+type = 'IDENT'
+value = 'calc'
+
+[[tokens]]
+line = 29
+type = 'DOT'
+value = '.'
+
+[[tokens]]
+line = 29
+type = 'IDENT'
+value = 'multiply'
+
+[[tokens]]
+line = 29
+type = 'LEFT_PAREN'
+value = '('
+
+[[tokens]]
+line = 29
+type = 'IDENT'
+value = 'x'
+
+[[tokens]]
+line = 29
+type = 'COMMA'
+value = ','
+
+[[tokens]]
+line = 29
+type = 'IDENT'
+value = 'y'
+
+[[tokens]]
+line = 29
+type = 'RIGHT_PAREN'
+value = ')'
+
+[[tokens]]
+line = 30
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 31
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 31
+type = 'KEYWORD'
+value = 'if'
+
+[[tokens]]
+line = 31
+type = 'LEFT_PAREN'
+value = '('
+
+[[tokens]]
+line = 31
+type = 'IDENT'
+value = 'sum'
+
+[[tokens]]
+line = 31
+type = 'GREATER'
+value = '>'
+
+[[tokens]]
+line = 31
+type = 'NUMBER'
+value = '25'
+
+[[tokens]]
+line = 31
+type = 'RIGHT_PAREN'
+value = ')'
+
+[[tokens]]
+line = 31
+type = 'LEFT_BRACE'
+value = '{'
+
+[[tokens]]
+line = 32
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 32
+type = 'IDENT'
+value = 'print'
+
+[[tokens]]
+line = 32
+type = 'LEFT_PAREN'
+value = '('
+
+[[tokens]]
+line = 32
+type = 'STRING'
+value = 'Sum is greater than 25: '
+
+[[tokens]]
+line = 32
+type = 'PLUS'
+value = '+'
+
+[[tokens]]
+line = 32
+type = 'IDENT'
+value = 'sum'
+
+[[tokens]]
+line = 32
+type = 'RIGHT_PAREN'
+value = ')'
+
+[[tokens]]
+line = 33
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 33
+type = 'RIGHT_BRACE'
+value = '}'
+
+[[tokens]]
+line = 33
+type = 'KEYWORD'
+value = 'else'
+
+[[tokens]]
+line = 33
+type = 'LEFT_BRACE'
+value = '{'
+
+[[tokens]]
+line = 34
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 34
+type = 'IDENT'
+value = 'print'
+
+[[tokens]]
+line = 34
+type = 'LEFT_PAREN'
+value = '('
+
+[[tokens]]
+line = 34
+type = 'STRING'
+value = 'Sum is less than or equal to 25: '
+
+[[tokens]]
+line = 34
+type = 'PLUS'
+value = '+'
+
+[[tokens]]
+line = 34
+type = 'IDENT'
+value = 'sum'
+
+[[tokens]]
+line = 34
+type = 'RIGHT_PAREN'
+value = ')'
+
+[[tokens]]
+line = 35
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 35
+type = 'RIGHT_BRACE'
+value = '}'
+
+[[tokens]]
+line = 36
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 37
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 37
+type = 'KEYWORD'
+value = 'var'
+
+[[tokens]]
+line = 37
+type = 'IDENT'
+value = 'message'
+
+[[tokens]]
+line = 37
+type = 'COLON'
+value = ':'
+
+[[tokens]]
+line = 37
+type = 'KEYWORD'
+value = 'string'
+
+[[tokens]]
+line = 37
+type = 'ASSIGN'
+value = '='
+
+[[tokens]]
+line = 37
+type = 'STRING'
+value = 'Hello, DreamLang!'
+
+[[tokens]]
+line = 38
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 38
+type = 'RIGHT_BRACE'
+value = '}'
+
+[[tokens]]
+line = 39
+type = 'LINEBREAK'
+value = '''
+'''
+
+[[tokens]]
+line = 39
+type = 'EOF'
+value = ''

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-26 12:45+0200\n"
+"POT-Creation-Date: 2025-06-28 12:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,6 +117,18 @@ msgstr ""
 
 #: src/main.cpp:107
 msgid "Lexical Error"
+msgstr ""
+
+#: src/main.cpp:123
+msgid "JSON tokens file generated"
+msgstr ""
+
+#: src/main.cpp:133
+msgid "TOML tokens file generated"
+msgstr ""
+
+#: src/main.cpp:138
+msgid "Failed to generate token files"
 msgstr ""
 
 #: src/main.cpp:188 src/main.cpp:196 src/main.cpp:201 src/main.cpp:209

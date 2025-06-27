@@ -1,5 +1,6 @@
 #include "lexer/lexical.h"
 #include "lexer/lexical_exception.h"
+#include "lexer/token_serialize.h"
 #include "i18n/locale_manager.h"
 #include "config/config_manager.h"
 #include <iostream>
@@ -7,6 +8,8 @@
 #include <vector>
 #include <string>
 #include <algorithm>
+#include <filesystem>
+#include <sstream>
 
 void printUsage(const char* program_name) {
     using namespace dreamlang::i18n;
@@ -74,7 +77,7 @@ std::string readFile(const std::string& filename) {
     return content;
 }
 
-void tokenizeAndPrint(const std::string& source_code, bool show_tokens = false) {
+void tokenizeAndPrint(const std::string& source_code, bool show_tokens = false, const std::string& source_filename = "") {
     using namespace dreamlang::lexer;
     using namespace dreamlang::i18n;
     
@@ -96,6 +99,51 @@ void tokenizeAndPrint(const std::string& source_code, bool show_tokens = false) 
             
             std::cout << "===========================================" << std::endl;
             std::cout << locale_mgr.gettext("Total tokens") << ": " << tokens.size() << std::endl;
+
+            // 当显示token时，同时生成JSON和TOML文件
+            if (!source_filename.empty()) {
+                try {
+                    // 获取源文件的目录和基础名称
+                    std::filesystem::path source_path(source_filename);
+                    std::filesystem::path source_dir = source_path.parent_path();
+                    std::string base_name = source_path.stem().string();
+
+                    // 如果源文件在当前目录，source_dir会是空的，需要设置为当前目录
+                    if (source_dir.empty()) {
+                        source_dir = ".";
+                    }
+
+                    // 在源文件目录下创建.tokens目录
+                    std::filesystem::path tokens_dir = source_dir / ".tokens";
+                    if (!std::filesystem::exists(tokens_dir)) {
+                        std::filesystem::create_directories(tokens_dir);
+                    }
+
+                    // 生成JSON文件
+                    std::string json_content = serialize(tokens, "json");
+                    std::filesystem::path json_filename = tokens_dir / (base_name + ".json");
+                    std::ofstream json_file(json_filename);
+                    if (json_file.is_open()) {
+                        json_file << json_content;
+                        json_file.close();
+                        std::cout << locale_mgr.gettext("JSON tokens file generated") << ": " << json_filename << std::endl;
+                    }
+
+                    // 生成TOML文件
+                    std::string toml_content = serialize(tokens, "toml");
+                    std::filesystem::path toml_filename = tokens_dir / (base_name + ".toml");
+                    std::ofstream toml_file(toml_filename);
+                    if (toml_file.is_open()) {
+                        toml_file << toml_content;
+                        toml_file.close();
+                        std::cout << locale_mgr.gettext("TOML tokens file generated") << ": " << toml_filename << std::endl;
+                    }
+
+                } catch (const std::exception& e) {
+                    std::cerr << locale_mgr.gettext("Warning") << ": "
+                              << locale_mgr.gettext("Failed to generate token files") << " - " << e.what() << std::endl;
+                }
+            }
         } else {
             std::cout << locale_mgr.gettext("Lexical analysis completed successfully") 
                       << ". " << locale_mgr.gettext("Found") << " " << tokens.size() 
@@ -273,7 +321,7 @@ int main(int argc, char* argv[]) {
     try {
         std::string resolved_file = resolveSourceFile(source_file);
         std::string source_code = readFile(resolved_file);
-        tokenizeAndPrint(source_code, show_tokens);
+        tokenizeAndPrint(source_code, show_tokens, resolved_file);
     } catch (const std::exception& e) {
         std::cerr << locale_mgr.gettext("Error") << ": " << e.what() << std::endl;
         return 1;

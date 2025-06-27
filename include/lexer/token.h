@@ -15,9 +15,8 @@ public:
      * @param type Token类型
      * @param value Token值
      * @param line 行号
-     * @param column 列号
      */
-    Token(TokenType type, const std::string& value, int line, int column);
+    Token(TokenType type, const std::string& value, int line);
 
     /**
      * 拷贝构造函数
@@ -48,7 +47,6 @@ public:
     TokenType getType() const { return type_; }
     const std::string& getValue() const { return value_; }
     int getLine() const { return line_; }
-    int getColumn() const { return column_; }
 
     /**
      * 检查是否是关键字
@@ -84,7 +82,6 @@ private:
     TokenType type_;
     std::string value_;
     int line_;
-    int column_;
 };
 
 } // namespace dreamlang::lexer

@@ -3,16 +3,16 @@
 
 namespace dreamlang::lexer {
 
-Token::Token(TokenType type, const std::string& value, int line, int column)
-    : type_(type), value_(value), line_(line), column_(column) {
+Token::Token(TokenType type, const std::string& value, int line)
+    : type_(type), value_(value), line_(line) {
 }
 
 Token::Token(const Token& other)
-    : type_(other.type_), value_(other.value_), line_(other.line_), column_(other.column_) {
+    : type_(other.type_), value_(other.value_), line_(other.line_) {
 }
 
 Token::Token(Token&& other) noexcept
-    : type_(other.type_), value_(std::move(other.value_)), line_(other.line_), column_(other.column_) {
+    : type_(other.type_), value_(std::move(other.value_)), line_(other.line_) {
 }
 
 Token& Token::operator=(const Token& other) {
@@ -20,7 +20,6 @@ Token& Token::operator=(const Token& other) {
         type_ = other.type_;
         value_ = other.value_;
         line_ = other.line_;
-        column_ = other.column_;
     }
     return *this;
 }
@@ -30,7 +29,6 @@ Token& Token::operator=(Token&& other) noexcept {
         type_ = other.type_;
         value_ = std::move(other.value_);
         line_ = other.line_;
-        column_ = other.column_;
     }
     return *this;
 }
@@ -78,15 +76,14 @@ std::string Token::toString() const {
     oss << "Token{type=" << tokenTypeToString(type_) 
         << ", value=\"" << value_ << "\""
         << ", line=" << line_ 
-        << ", column=" << column_ << "}";
+        <<  "}";
     return oss.str();
 }
 
 bool Token::operator==(const Token& other) const {
     return type_ == other.type_ && 
            value_ == other.value_ && 
-           line_ == other.line_ && 
-           column_ == other.column_;
+           line_ == other.line_ ;
 }
 
 bool Token::operator!=(const Token& other) const {

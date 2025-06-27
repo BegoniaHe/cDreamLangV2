@@ -21,6 +21,9 @@ fun main() {
     var calc = Calculator()
     var x: number = 10
     var y: number = 20
+
+    var hex1: number = 0x13
+    // var hex_err: number = 0X23CJSH
     
     var sum = calc.add(x, y)
     var product = calc.multiply(x, y)

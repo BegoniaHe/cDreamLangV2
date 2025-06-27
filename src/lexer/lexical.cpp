@@ -309,9 +309,57 @@ Token Lexical::readIdentifierOrKeyword() {
 Token Lexical::readNumber() {
     size_t start = index_;
     
+    if (currentChar() == '0' && !isAtEnd()) {
+        char next = peekChar();
+        
+        // 处理十六进制数字
+        if (next == 'x' || next == 'X') {
+            advance(); // 跳过 '0'
+            advance(); // 跳过 'x' 或 'X'
+            if (isAtEnd() || !isHexDigit(currentChar())) {
+                throwError(_("Invalid hexadecimal number"), currentChar(), "NUMBER");
+            }
+            while (!isAtEnd() && isHexDigit(currentChar())) {
+                advance();
+            }
+            std::string text = source_code_.substr(start, index_ - start);
+            return makeToken(TokenType::NUMBER, text);
+        }
+        
+        // 处理二进制数字
+        if (next == 'b' || next == 'B') {
+            advance(); // 跳过 '0'
+            advance(); // 跳过 'b' 或 'B'
+            if (isAtEnd() || (currentChar() != '0' && currentChar() != '1')) {
+                throwError(_("Invalid binary number"), currentChar(), "NUMBER");
+            }
+            while (!isAtEnd() && (currentChar() == '0' || currentChar() == '1')) {
+                advance();
+            }
+            std::string text = source_code_.substr(start, index_ - start);
+            return makeToken(TokenType::NUMBER, text);
+        }
+        
+        // 处理八进制数字
+        if (next == 'o' || next == 'O') {
+            advance(); // 跳过 '0'
+            advance(); // 跳过 'o' 或 'O'
+            if (isAtEnd() || (currentChar() < '0' || currentChar() > '7')) {
+                throwError(_("Invalid octal number"), currentChar(), "NUMBER");
+            }
+            while (!isAtEnd() && (currentChar() >= '0' && currentChar() <= '7')) {
+                advance();
+            }
+            std::string text = source_code_.substr(start, index_ - start);
+            return makeToken(TokenType::NUMBER, text);
+        }
+    }
+    
+    // 处理普通的十进制数字
     while (!isAtEnd() && isDigit(currentChar())) {
         advance();
     }
+
     
     // 处理小数点
     if (!isAtEnd() && currentChar() == '.' && isDigit(peekChar())) {
@@ -432,7 +480,7 @@ bool Lexical::isKeyword(const std::string& text) {
 }
 
 Token Lexical::makeToken(TokenType type, const std::string& value) const {
-    return {type, value, line_, column_};
+    return {type, value, line_};
 }
 
 void Lexical::throwError(const std::string& error_type, char error_char, 
